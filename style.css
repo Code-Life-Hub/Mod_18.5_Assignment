@@ -1,0 +1,77 @@
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 24px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+.firstGroup{
+  display:flex;
+  margin: 15px;
+}
+.secondGroup {
+  display: flex;
+}
+.thirdGroup {
+  display: flex;
+  background-color:#5c4f41;
+}
+.space {
+  flex: 1;
+  margin:10px;
+}
+img {
+  width:100%;
+}
+.coffee {
+  flex: 1;
+  padding: 10px;
+}
+.more-coffee{
+  flex:2;
+  padding: 10px;
+}
+@media all and (max-width: 450px){
+  .firstGroup{
+    display:flex;
+    margin: 15px;
+    flex-direction: column;
+  }
+  .secondGroup {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .thirdGroup {
+    display: flex;
+    background-color:#5c4f41;
+    flex-direction: column;
+
+  }
+}
+
+
+
+
