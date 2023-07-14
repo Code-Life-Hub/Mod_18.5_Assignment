@@ -20,11 +20,3 @@ Coffee Fun is a responsive web page dedicated to coffee lovers. It provides info
 ## CSS Styles
 
 The CSS for this project uses Flexbox for layout purposes. The main content has a top margin to create space from the header. Headings have a bottom border to visually separate them from the following content. The background color of the last section is changed to create visual interest.
-
-## Live Demo
-
-Please replace this text with the live demo link if available.
-
-## Contact
-
-Please replace this text with your contact information.
